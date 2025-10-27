@@ -1,0 +1,8 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; background: #0d0d0d; color: #fff; font-family: Inter, sans-serif; }
+#gameWrap { display:flex; flex-direction:column; align-items:center; padding:20px; }
+canvas { background: linear-gradient(#87CEEB, #cfe9ff); border: 4px solid #222; border-radius:8px; display:block; }
+#hud { width:480px; max-width:90vw; margin-top:12px; display:flex; justify-content:space-between; align-items:center; gap:8px; }
+#score { font-size:18px; color:#fff; background:#111; padding:8px 12px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.5); }
+#startBtn { padding:8px 12px; border-radius:8px; border:none; cursor:pointer; background:#00A3FF; color:#fff; }
+#status { color:#ccc; font-size:13px; min-width:180px; text-align:right; }
